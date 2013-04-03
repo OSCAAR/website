@@ -1,50 +1,14 @@
+<?php $thisPage = "HD189733"; ?>
+<!DOCTYPE HTML>
 <html>
-   
-<link rel="stylesheet" href="homestyle.css" type="text/css" media="screen" />
-    <!--header-->
-<body>
-<div class="header">
- 
-    <table style="border-color: #999999;">
-        <tr>
-            <td>
-                <img src="images/sumoLarge2cropped.png" width="328" height="100" alt="SUMO" />
-            </td>
-            <td width=100% height="100" align=center>
-                 <p1><strong>Semester Undergraduate Maryland Observers</strong></p1>
-            </td>
-            <td>
-               <img src="images/University_of_Maryland.png" width="100" height="100" alt="SUMO" />
-            </td>
-        </tr>
- </table>
-</div>
- <!--header-->
- <!---nav bar-->
- <div  class="navbar">
-   <table bgcolor=#900000 style="border-color: #CCCC00; width:100%;">
-        <tr>
-            <td align=center >
-               <a href="Homepage.html">Home</a>
-            </td>
-            <td align=center >
-               <a href="ObsBios.html">Our Team </a>
-            </td>
-            <td align=center >
-               <a href="TelescopeBios.html">Equipment </a>
-            </td>
-            <td align=center >
-               <a href="OSCAARbio.html">OSCAAR </a>
-            </td>   
-            <td align=center >
-               <a href="Asteroids.html">Asteroids </a>
-            </td>
-             
-   </tr>
-   </table>
- </div>
-<!--nav-->
- <!---infobox-->
+	<!-- header -->
+    <link rel="stylesheet" href="homestyle.css" type="text/css" media="screen" />
+    <head>
+        <title><?php if ($thisPage!="") echo "$thisPage"; ?></title>
+    </head>
+    <body>
+    	<!-- navbar inclusion -->
+    	<?php include('nav.php'); ?> <!---infobox-->
          <div class="content">
              <h5>HD189733 b</h5>
              <!--<p2>Place holder.</p2>-->
