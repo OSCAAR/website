@@ -3,7 +3,7 @@
 		<tr>
 			<td>
 				<img align="left" src="images/sumoLarge2cropped.png" width="328" height="100" alt="SUMO"/>
-				<td width=100% height="100" align="center" />
+				<td width=100% height="100" align="center"><h1><?php echo "$thisPage" ?></h1> </td>
 				<img align="right" src="images/University_of_Maryland.png" width="100" height="100" alt="SUMO"/>
 			</td>
 		</tr>
